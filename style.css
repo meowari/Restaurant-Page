@@ -1,0 +1,325 @@
+
+body{
+    background-color: #FFFDE7;
+    color:black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background{
+    background-image: url(https://d2u2p93rbjj5dq.cloudfront.net/assets/uploads/2019/07/tokyo-kominka-cafe-biyori1top-1000x667.png);
+    background-position:-25px -150px;
+    background-size: cover;
+    opacity: 0.8;
+    height: 350px;
+    width:100%;
+  }
+  
+  h1{
+    color:#5D4037;
+    background-color:#BCAAA4;
+    width:200px;
+    height:50px;
+    text-align:center;
+    font-size:35px;
+    margin:0;
+    padding: 15px;
+    position: relative;
+    top:30px;
+    font-weight:bold;
+  }
+  
+  nav{
+    color:#FAFAFA;
+    width:100%;
+  }
+  
+  ol{
+    list-style:none;
+    background-color:#5D4037;
+    height:50px;
+    margin:0px;
+    padding:10px;
+    text-align:right;
+  }
+  
+  li{
+    display: inline-block;
+    font-family:'Pathway Extreme', sans-serif;
+    padding:15px 50px 70px;
+    text-transform: uppercase;
+  }
+  
+  h2{
+    color:#795548;
+    text-align:center;
+    background-color:#BCAAA4;
+    padding: 20px;
+    font-weight:bold;
+  }
+  
+  p{
+    text-align: center;
+    font-size: 16px;
+    border: 2px dotted #795548;
+    padding: 20px 20px;
+    width: 500px;
+    background-color:#ECEFF1;
+    border-radius: 25px;
+    margin:auto;
+    color:#37474F;
+    width: 250;
+  
+  }
+  
+  h3{
+    border:dotted;
+    width:300px;
+    padding:20px;
+    border-radius: 20px;
+    margin: auto;
+    background-color:#8D6E63;
+    color:#FFF8E1;
+    font-weight:bold;
+  }
+  
+  .caption{
+    display:inline-block;
+  }
+  
+  #matcha, #hojicha, #parfait{
+    height: 200px;
+  }
+  
+  h2.order{
+    font-family:"Times New Roman";
+    font-weight:bold;
+   }
+  
+  form.order-form{
+    text-align:center;
+    font-family:arial;
+    background-color:#D7CCC8;
+  }
+  
+  .milk-selection{
+    margin:10px;
+  }
+  
+  .submission{
+    margin:0px;
+    padding: 10px;
+    width: 100px;
+    background-color:#C5E1A5;
+    border-color:#FFECB3;
+    border-radius: 20px;
+    color:#795548;
+  }
+  
+  #name, #number, #email{
+    width:300px;
+    padding:20px 10px;
+    margin:10px;
+    background-color:#ECEFF1;
+    border-color:#FAFAFA;
+  }
+  
+  section.personal-info{
+    margin:auto;
+    width: 700px;
+    border-radius:25px;
+    border-color:#BCAAA4;
+  }
+  
+  .address{
+    padding:10px;
+  }
+  
+  #address, #city, #state, #zipcode{
+    background-color:#ECEFF1;
+    border-color:#ECEFF1;
+  }
+  
+  .column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .personal-info{
+    border: solid;
+    padding: 10px;
+    width: 500px;
+    position: center;
+  }
+  
+  #card-no{
+    display: inline-block;
+    width:300px;
+    padding:10px;
+    margin:10px;
+    background-color:#ECEFF1;
+    border-color:#FAFAFA;
+  }
+  
+  #code, #exp{
+    display: inline-block;
+    width:50px;
+    padding:10px;
+    margin:10px;
+    background-color:#ECEFF1;
+    border-color:#FAFAFA;
+  }
+  
+  label{
+    padding:0px;
+  }
+  
+  h4{
+    color:#6D4C41;
+  }
+  
+  section.milk-selection{
+    color:#4E342E;
+  }
+
+  .credit-card {
+    width: 360px;
+    height: 400px;
+    margin: 60px auto 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+}
+
+.form-header {
+    height: 60px;
+    padding: 20px 30px 0;
+    border-bottom: 1px solid #e1e8ee;
+}
+ 
+.form-body {
+    height: 340px;
+    padding: 30px 30px 20px;
+}
+
+.title {
+    font-size: 18px;
+    margin: 0;
+    color: #5e6977;
+}
+
+.card-number,
+.cvv-input input,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+ 
+.card-number,
+.month select,
+.year select {
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 14px;
+}
+ 
+.card-number,
+.cvv-details,
+.cvv-input input,
+.month select,
+.year select {
+    opacity: .7;
+    color: #86939e;
+}
+
+.card-number {
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+}
+
+.month select,
+.year select {
+    width: 145px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: url('caret.png') no-repeat;
+    background-position: 85% 50%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+ 
+.month select {
+    float: left;
+}
+ 
+.year select {
+    float: right;
+}
+
+.cvv-input input {
+    float: left;
+    width: 145px;
+    padding-left: 20px;
+    border: 2px solid #e1e8ee;
+    border-radius: 6px;
+    background: #fff;
+}
+ 
+.cvv-details {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    float: right;
+    margin-bottom: 20px;
+}
+ 
+.cvv-details p {
+    margin-top: 6px;
+}
+
+/* Buttons Section */
+.paypal-btn,
+.proceed-btn {
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-color: transparent;
+    border-radius: 6px;
+}
+ 
+.proceed-btn {
+    margin-bottom: 10px;
+    background: #7dc855;
+}
+ 
+.paypal-btn a,
+.proceed-btn a {
+    text-decoration: none;
+}
+ 
+.proceed-btn a {
+    color: #fff;
+}
+ 
+.paypal-btn a {
+    color: rgba(242, 242, 242, .7);
+}
+ 
+.paypal-btn {
+    padding-right: 95px;
+    background: url('paypal-logo.svg') no-repeat 65% 56% #009cde;
+}
+  
+.card {
+ display: 
+}  
+  

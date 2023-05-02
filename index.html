@@ -1,0 +1,170 @@
+<!DOCTYPE HTML5>
+<html>
+<head>
+  <title id="home">Cafe Tomo</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+  <nav>
+    <ol>
+      <li class="home">
+        <a href="#home">Home</a>
+      </li>
+      <li class="order">
+        <a href="#order-form">Order</a>
+      </li>
+      <li class="contact">
+        <a href="#contact">Contact Us</a>
+      </li>
+      <li>
+        <form role='search'>
+          <input type='search' placeholder='Search'>
+          <input type='submit' value='Submit'>
+        </form>
+      </li>
+    </ol>
+  </nav>
+  <div class="background">
+    <div class="name">
+      <h1>Cafe Tomo</h1>
+   </div>
+  </div>
+  
+  <section id="order-form">
+   <form class="order-form">
+  <h2 class="order">Order Form</h2>
+  <p>
+    We are a retro cafe with a variety of drinks and pastries. We brew our teas freshly and make our sweets fresh in the morning.
+  </p>
+  <br>
+    <section class="personal-info">
+      <label for="personal-info">Full Name: </label>
+      <input required type="text" placeholder="Enter Full Name" id="name" name="text" class="text-box">
+      <br>
+      <label for="">Email: </label>
+      <input required type="email" placeholder="Enter Email" id="email" class="text-box">
+       <br>
+      <label for="email">Phone Number: </label>
+       <input required type="text" placeholder="Enter Phone Number" id="number" class="text-box">
+      <br>
+    <div class="address">
+      <label for="address"> Address: </label>
+      <input required type="text" placeholder="Enter Address" id="address" name="text" class="text-box">
+      <input required type="text" placeholder="City" id="city" name="text" class="text-box">
+      <input required type="text" placeholder="State" id="state" name="text" class="text-box">
+      <input required type="text" placeholder="Zipcode" id="zipcode" name="text" class="text-box">
+      <br>
+    </div>
+    </section>
+   <br><br>
+    <section class="menu order">
+     <h3>What would you like to order?</h3>
+     <br><br>
+   <div class="row">
+      <div class="column">
+        <img id="matcha" src="https://ourlovelanguageisfood.com/wp-content/uploads/2022/04/3_easy-iced-matcha-latte.jpg" alt="Image of Matcha Latte">
+        <span class="caption"><strong>$5.00</strong></span>
+          <input type="checkbox">
+          <label for="matcha"> Matcha Latte</label>
+     </div>
+      <div class="column">
+      <img id="hojicha" src="https://www.siftandsimmer.com/wp-content/uploads/2019/11/iced-hojicha-latte2.jpg" alt="Image of Hojicha Latte">
+      <span class="caption"><strong>$5.50</strong></span>
+          <input type="checkbox">Hojicha Latte
+      </div>
+      
+      <div name="column">
+         <img id="parfait" src="https://burpple-2.imgix.net/foods/3fdf845cc8dac726b741765678_original.?w=645&dpr=1&fit=crop&q=80&auto=format" alt="Image of Matcha and Hojicha Parfait">
+      <span class="caption"><strong>$6.75</strong></span>
+      <input type="checkbox">
+          <label for="parfait">Matcha Parfait</label>
+        <input type="checkbox">
+          <label for="parfait">Hojicha Parfait</label>
+      </div>
+ </div>
+    </section>
+     <br><br>
+    <section class="milk-selection">
+      <label for="milk">What type of milk would you like?</label> 
+          <input list="milks" id="milk" name="milk">
+          <datalist id="milks">
+            <option value="whole milk"></option>
+            <option value="soy milk"></option>
+            <option value="almond milk"></option>
+            <option value="oat milk"></option>
+          </datalist>
+    </section>
+     <br>
+    <section class="restriction">
+          <h4>Please let us know any allergies/ dietary restrictions</h4>
+          <textarea id="restrictions" name="restriction" rows="10" cols="60"></textarea>
+        </form>
+        </section>
+    <br>
+   <section class="card">
+       <h3>Payment Information</h3>
+       <!-- Credit Card Slot -->
+       <form class="credit-card">
+        <div class="form-header">
+          <h4 class="title">Credit card detail</h4>
+        </div>
+        <div class="form-body">
+          <!-- Card Number -->
+          <input type="text" class="card-number" placeholder="Card Number">
+          <!-- Date Field -->
+          <div class="date-field">
+            <div class="month">
+              <select name="Month">
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+              </select>
+            </div>
+            <div class="year">
+              <select name="Year">
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+              </select>
+            </div>
+          </div>
+          <!-- Card Verification Field -->
+          <div class="card-verification">
+            <div class="cvv-input">
+              <input type="text" placeholder="CVV">
+            </div>
+            <div class="cvv-details">
+              <p>3 or 4 digits usually found <br> on the signature strip</p>
+            </div>
+          </div>
+          <!-- Buttons -->
+          <button type="submit" class="proceed-btn"><a href="#">Proceed</a></button>
+          <button type="submit" class="paypal-btn"><a href="#">Pay With</a></button>
+        </div>
+      </form>
+  <footer id="contact">
+  <h2 class="contact">Contact Us</h2>
+  <p>
+    Feel free to contact us about any questions or bulk orders! 
+    Our phone number is: (939) 283-7445!
+  </p>
+  </footer>
+  <br>
+</body>
+</html>
